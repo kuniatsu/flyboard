@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Sections on KURASERU</title>
+    <title>Sections on 関東フライボード大会・ホバーボード大会</title>
     <link>/sections/</link>
-    <description>Recent content in Sections on KURASERU</description>
+    <description>Recent content in Sections on 関東フライボード大会・ホバーボード大会</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     
@@ -17,7 +17,8 @@
       
       <guid>/sections/example/</guid>
       <description>SHOJI thinks &amp;ldquo;want to show career well&amp;rdquo;.
-This company is for that purpose.</description>
+This company is for that purpose.
+ここのGoogleMap</description>
     </item>
     
   </channel>

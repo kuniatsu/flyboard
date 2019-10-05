@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>HOME on KURASERU</title>
+    <title>HOME on 関東フライボード大会・ホバーボード大会</title>
     <link>/</link>
-    <description>Recent content in HOME on KURASERU</description>
+    <description>Recent content in HOME on 関東フライボード大会・ホバーボード大会</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 24 Mar 2019 22:16:30 +0900</lastBuildDate>
@@ -45,7 +45,8 @@
       
       <guid>/sections/example/</guid>
       <description>SHOJI thinks &amp;ldquo;want to show career well&amp;rdquo;.
-This company is for that purpose.</description>
+This company is for that purpose.
+ここのGoogleMap</description>
     </item>
     
   </channel>
