@@ -20,7 +20,8 @@
 }
 
 .header__title__link {
-	color: var(--primary-dark);
+	/* color: var(--primary-dark); */
+	color: var(--accent);
 }
 
 .header__title__logo {
@@ -69,7 +70,8 @@
 }
 
 .menu__items__item__link::before {
-	background-color: var(--primary);
+	/* background-color: var(--primary); */
+	background-color: var(--accent);
 }
 
 .menu__items__item__link:hover::before,
@@ -130,7 +132,7 @@
 }
 
 .hamburger__items__item__link:hover {
-	color: var(--primary-dark);
+	color: var(--accent);
 }
 
 .toggle .hamburger__toggle:checked ~ .hamburger__items {
@@ -408,7 +410,8 @@
 
 /* FOOTER */
 .footer {
-	background-color: var(--primary-dark);
+	/* background-color: var(--primary-dark); */
+	background-color: var(--accent);
 	display: grid;
 	grid-auto-flow: row;
 	grid-template-areas: "social social social" "contact contact copy";
