@@ -1,7 +1,7 @@
 ---
 title: "HOME"
 description: ""
-images: [flyboard.jpg]
+images: [___.jpg]
 menu: main
 weight: 5
 ---
