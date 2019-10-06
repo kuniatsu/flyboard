@@ -34,7 +34,7 @@ body { height: 100% }
 </style>
 <script>
       var map;
-      var dom = document.getElementById('map')
+      var dom = document.getElementById("map");
       function initMap() {
         console.log("initMap");
         map = new google.maps.Map(dom, {
