@@ -609,8 +609,28 @@
  
 @media only screen and (max-width: 420px) {     
 	#top{
-		background-image: url('../images/flyboard_sp.jpg');
+		/* background-image: url('../images/flyboard_sp.jpg'); */
+		background:none;
 	} 
+
+	#top:before {
+		content: "";
+		display: block;
+		position: fixed;
+		top: 0;
+		left: 0;
+		-webkit-transform: translate3d(0, 0, -1px);
+		transform: translate3d(0, 0, -1px);
+		z-index:-1;
+		width: 100%;
+		height: 100vh;
+		background: url(../images/flyboard_sp.jpg) center/cover no-repeat;
+		-webkit-background-size: cover;
+	  }
+
+	  .section{
+		background-color: white;
+	  }
 
 	.hero__caption > p{
 		color: #FFF;
