@@ -617,7 +617,7 @@
 		position: fixed;
 	} 
 
-	#top:after {
+	#top:before {
 		content: "";
 		display: block;
 		position: fixed;
