@@ -17,9 +17,9 @@ weight: 0
 
 <iframe id="location_map3" class="map dispnone"  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3251.0285536038705!2d138.8948744146541!3d35.42932268025384!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xdb852c02c2433eec!2z5bGx5Lit5rmW44Oe44Oq44O844OK44Ko44Kk44OG44Kj44O844Oz!5e0!3m2!1sja!2sjp!4v1570363334395!5m2!1sja!2sjp" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 
-<h3 id="location1" class="location bold">→ フライフィールド逗子</h3>
-<h3 id="location2" class="location">→ JSP鎌倉</h3>
-<h3 id="location3" class="location">→ マリーナエイティーン</h3>
+<h3 id="location1" class="location bold"><a class="tel" href="tel:000-000-000">📞</a>   フライフィールド逗子 </h3>
+<h3 id="location2" class="location"><a class="tel" href="tel:000-000-000">📞</a>   JSP鎌倉 </h3>
+<h3 id="location3" class="location"><a class="tel" href="tel:000-000-000">📞</a>   マリーナエイティーン </h3>
 
 
 

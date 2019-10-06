@@ -648,7 +648,8 @@
 h3.location {
 	border-bottom: solid 1px black;
     margin-top: 0px;
-    padding: 10px;
+	padding: 10px;
+	white-space: nowrap;
 }
 
 .bold{
@@ -657,4 +658,8 @@ h3.location {
 
 .dispnone{
 	display: none;
+}
+
+.tel{
+	font-size: 200%;
 }
