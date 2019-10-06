@@ -6,4 +6,4 @@ theme = "hugo-terrassa-theme"
 publishDir = "docs"
 
 [Params]
-logo = "bluck.jpg"
+logo = "./images/logo.png"

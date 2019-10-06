@@ -25,7 +25,7 @@
 }
 
 .header__title__logo {
-	max-width: 7rem;
+	/* max-width: 7rem; //ロゴをでかくするため*/
 	vertical-align: middle;
 	width: 100%;
 }
@@ -588,6 +588,10 @@
 }
 
 
+
+/*追加*/
+
+
 /*タグ側で制御していたものをCSSに変更*/
 @media only screen and (min-width: 421px) {     
 	#top{
@@ -605,3 +609,10 @@
 	}
 }
 
+#title_logo{
+	margin:5px 0px 5px 5px;
+}
+
+.hamburger__items{
+    margin-top: 5px;
+}
