@@ -31,6 +31,7 @@ weight: 0
 #map { height: 100%; width: 100%}
 </style>
 <script>
+      console.log(1);
       var map_obj;
       function initMap() {
         console.log(map);
