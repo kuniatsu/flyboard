@@ -25,13 +25,8 @@ weight: 0
 <button>ここのGoogleMap</button>
 
 
-
-
-<style>
-#map { height: 100%; width: 100%}
-</style>
 <script>
-      console.log(1);
+      console.log(2);
       var map_obj;
       function initMap() {
         console.log(map);
