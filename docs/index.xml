@@ -46,8 +46,7 @@
       <guid>/sections/example/</guid>
       <description>フライボード ・ホバーボードを体験する 関東で体験できるフライボード・ホバーボードアクティビティ
  --  フライボード ・ホバーボードを体験する 関東で体験できるフライボード・ホバーボードアクティビティ
-ここのGoogleMap
- console.log(3); var map_obj; function initMap() { console.log(map); map_obj = new google.maps.Map(map, { center: {lat: -34.397, lng: 150.644}, zoom: 8 }); }   --</description>
+ここのGoogleMap</description>
     </item>
     
   </channel>
