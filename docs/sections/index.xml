@@ -16,7 +16,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/sections/example/</guid>
-      <description>console.log(&#34;map log&#34;); var map; function initMap() { map = new google.maps.Map(document.getElementById(&#39;sample&#39;), { // #sampleに地図を埋め込む center: { // 地図の中心を指定 lat: 34.7019399, // 緯度 lng: 135.51002519999997 // 経度 }, zoom: 19 // 地図のズームを指定 }); }   フライボード ・ホバーボードを体験する 関東で体験できるフライボード・ホバーボードアクティビティ
+      <description>console.log(&#34;map log&#34;); var map; function initMap() { map = new google.maps.Map(document.getElementById(&#39;sample&#39;), { // #sampleに地図を埋め込む center: { // 地図の中心を指定 lat: 34.7019399, // 緯度 lng: 135.51002519999997 // 経度 }, zoom: 19 // 地図のズームを指定 }); console.dir(map); } console.dir(map);   フライボード ・ホバーボードを体験する 関東で体験できるフライボード・ホバーボードアクティビティ
  フライボード ・ホバーボードを体験する 関東で体験できるフライボード・ホバーボードアクティビティ
 ここのGoogleMap</description>
     </item>
