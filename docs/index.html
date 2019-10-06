@@ -164,23 +164,18 @@
 
 <p><button>ここのGoogleMap</button></p>
 
+<script src="http://maps.google.com/maps/api/js?key=AIzaSyASolxHXUI2r1377h26yWShGFaVqbD6XR4&language=ja"><script>
 <script>
-console.log("test2");
-var map;
-var dom = document.getElementById('map');
-console.dir(dom);
-function initMap() {
- map = new google.maps.Map(dom , { // #mapに地図を埋め込む
-     center: { // 地図の中心を指定
-           lat: 35.681236, // 緯度
-          lng: 139.767125 // 経度
-       },
-      zoom: 15, // 地図のズームを指定
-      mapTypeId: google.maps.MapTypeId.ROADMAP //表示する地図の形式を設定します。今回は道路地図を表示します。
-   });
-}
+    console.log("test2");
+    var dom = document.getElementById('map');
+    var MyLatLng = new google.maps.LatLng(35.6811673, 139.7670516);
+    var Options = {
+    zoom: 15,      //地図の縮尺値
+    center: MyLatLng,    //地図の中心座標
+    mapTypeId: 'roadmap'   //地図の種類
+    };
+    var map = new google.maps.Map(dom, Options);
 </script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASolxHXUI2r1377h26yWShGFaVqbD6XR4&callback=initMap"></script>
 
     </div>
 </section>
