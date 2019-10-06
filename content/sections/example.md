@@ -40,6 +40,5 @@ weight: 0
           zoom: 8
         });
       }
-      console.dir(map_obj);
     </script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASolxHXUI2r1377h26yWShGFaVqbD6XR4&callback=initMap" async defer></script>
