@@ -47,7 +47,7 @@
       <description>フライボード ・ホバーボードを体験する 関東で体験できるフライボード・ホバーボードアクティビティ
  フライボード ・ホバーボードを体験する 関東で体験できるフライボード・ホバーボードアクティビティ
 ここのGoogleMap
- html { height: 100% } body { height: 100% } #map { height: 100%; width: 100%}   var map; var dom2 = document.getElementById(&amp;ldquo;map&amp;rdquo;); function initMap() { console.log(&amp;ldquo;initMap&amp;rdquo;); map = new google.maps.Map(dom2, { center: {lat: -34.397, lng: 150.644}, zoom: 8 }); } console.dir(map);</description>
+ html { height: 100% } body { height: 100% } #map { height: 100%; width: 100%}   var map_obj; function initMap() { console.log(map); map_obj = new google.maps.Map(map, { center: {lat: -34.397, lng: 150.644}, zoom: 8 }); } console.dir(map_obj);</description>
     </item>
     
   </channel>

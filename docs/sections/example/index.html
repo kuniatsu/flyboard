@@ -17,13 +17,13 @@
 <meta name="twitter:description" content="フライボード ・ホバーボードを体験する 関東で体験できるフライボード・ホバーボードアクティビティ
  フライボード ・ホバーボードを体験する 関東で体験できるフライボード・ホバーボードアクティビティ
 ここのGoogleMap
- html { height: 100% } body { height: 100% } #map { height: 100%; width: 100%}   var map; var dom2 = document.getElementById(&ldquo;map&rdquo;); function initMap() { console.log(&ldquo;initMap&rdquo;); map = new google.maps.Map(dom2, { center: {lat: -34.397, lng: 150.644}, zoom: 8 }); } console.dir(map);"/>
+ html { height: 100% } body { height: 100% } #map { height: 100%; width: 100%}   var map_obj; function initMap() { console.log(map); map_obj = new google.maps.Map(map, { center: {lat: -34.397, lng: 150.644}, zoom: 8 }); } console.dir(map_obj);"/>
 
     <meta property="og:title" content="" />
 <meta property="og:description" content="フライボード ・ホバーボードを体験する 関東で体験できるフライボード・ホバーボードアクティビティ
  フライボード ・ホバーボードを体験する 関東で体験できるフライボード・ホバーボードアクティビティ
 ここのGoogleMap
- html { height: 100% } body { height: 100% } #map { height: 100%; width: 100%}   var map; var dom2 = document.getElementById(&ldquo;map&rdquo;); function initMap() { console.log(&ldquo;initMap&rdquo;); map = new google.maps.Map(dom2, { center: {lat: -34.397, lng: 150.644}, zoom: 8 }); } console.dir(map);" />
+ html { height: 100% } body { height: 100% } #map { height: 100%; width: 100%}   var map_obj; function initMap() { console.log(map); map_obj = new google.maps.Map(map, { center: {lat: -34.397, lng: 150.644}, zoom: 8 }); } console.dir(map_obj);" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/sections/example/" />
 
@@ -163,16 +163,15 @@ body { height: 100% }
 #map { height: 100%; width: 100%}
 </style>
 <script>
-      var map;
-      var dom2 = document.getElementById(&ldquo;map&rdquo;);
+      var map_obj;
       function initMap() {
-        console.log(&ldquo;initMap&rdquo;);
-        map = new google.maps.Map(dom2, {
+        console.log(map);
+        map_obj = new google.maps.Map(map, {
           center: {lat: -34.397, lng: 150.644},
           zoom: 8
         });
       }
-      console.dir(map);
+      console.dir(map_obj);
     </script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASolxHXUI2r1377h26yWShGFaVqbD6XR4&callback=initMap" async defer></script></p>
 
