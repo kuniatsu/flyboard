@@ -9,7 +9,7 @@ publishDir = "docs"
 logo = "./images/logo.png"
 
 [[menu.main]]
-    name = "アクアボード体験"
+    name = "体験する"
     weight = 6
     identifier = "about"
     url = "./index.html#activity"
