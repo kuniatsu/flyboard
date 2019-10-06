@@ -10,7 +10,7 @@ weight: 0
 
 関東で体験できるフライボード・ホバーボードアクティビティ
 
-<div id="map"></div>
+<div id="map" style="position:static"></div>
 
 
 
@@ -28,8 +28,6 @@ weight: 0
 
 
 <style>
-html { height: 100% }
-body { height: 100% }
 #map { height: 100%; width: 100%}
 </style>
 <script>
