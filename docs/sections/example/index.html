@@ -17,13 +17,13 @@
 <meta name="twitter:description" content="フライボード ・ホバーボードを体験する 関東で体験できるフライボード・ホバーボードアクティビティ
  フライボード ・ホバーボードを体験する 関東で体験できるフライボード・ホバーボードアクティビティ
 ここのGoogleMap
- html { height: 100% } body { height: 100% } #map { height: 100%; width: 100%}   var map; function initMap() { map = new google.maps.Map(document.getElementById(&lsquo;map&rsquo;), { center: {lat: -34.397, lng: 150.644}, zoom: 8 }); }"/>
+ html { height: 100% } body { height: 100% } #map { height: 100%; width: 100%}   var map; var dom = document.getElementById(&lsquo;map&rsquo;) function initMap() { console.log(&ldquo;initMap&rdquo;); map = new google.maps.Map(dom, { center: {lat: -34.397, lng: 150.644}, zoom: 8 }); } console.dir(map);"/>
 
     <meta property="og:title" content="" />
 <meta property="og:description" content="フライボード ・ホバーボードを体験する 関東で体験できるフライボード・ホバーボードアクティビティ
  フライボード ・ホバーボードを体験する 関東で体験できるフライボード・ホバーボードアクティビティ
 ここのGoogleMap
- html { height: 100% } body { height: 100% } #map { height: 100%; width: 100%}   var map; function initMap() { map = new google.maps.Map(document.getElementById(&lsquo;map&rsquo;), { center: {lat: -34.397, lng: 150.644}, zoom: 8 }); }" />
+ html { height: 100% } body { height: 100% } #map { height: 100%; width: 100%}   var map; var dom = document.getElementById(&lsquo;map&rsquo;) function initMap() { console.log(&ldquo;initMap&rdquo;); map = new google.maps.Map(dom, { center: {lat: -34.397, lng: 150.644}, zoom: 8 }); } console.dir(map);" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/sections/example/" />
 
@@ -164,12 +164,15 @@ body { height: 100% }
 </style>
 <script>
       var map;
+      var dom = document.getElementById(&lsquo;map&rsquo;)
       function initMap() {
-        map = new google.maps.Map(document.getElementById(&lsquo;map&rsquo;), {
+        console.log(&ldquo;initMap&rdquo;);
+        map = new google.maps.Map(dom, {
           center: {lat: -34.397, lng: 150.644},
           zoom: 8
         });
       }
+      console.dir(map);
     </script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASolxHXUI2r1377h26yWShGFaVqbD6XR4&callback=initMap" async defer></script></p>
 
