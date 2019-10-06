@@ -610,10 +610,14 @@
 @media only screen and (max-width: 420px) {     
 	#top{
 		/* background-image: url('../images/flyboard_sp.jpg'); */
-		background:none;
+		background: url(../images/flyboard_sp.jpg) no-repeat;
+		background-size: cover;
+		-webkit-background-size: cover;
+		z-index: -1;
+		position: fixed;
 	} 
 
-	#top:before {
+	#top:after {
 		content: "";
 		display: block;
 		position: fixed;
@@ -630,6 +634,7 @@
 
 	  .section{
 		background-color: white;
+		margin-top: 150% !important;; 
 	  }
 
 	.hero__caption > p{
