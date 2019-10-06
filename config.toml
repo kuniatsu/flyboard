@@ -4,3 +4,6 @@ languageCode = "en-us"
 title = "関東フライボード大会・ホバーボード大会"
 theme = "hugo-terrassa-theme"
 publishDir = "docs"
+
+[Params]
+logo = "bluck.jpg"
