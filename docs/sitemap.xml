@@ -22,12 +22,12 @@
   </url>
   
   <url>
-    <loc>/posts/</loc>
-    <lastmod>2019-03-24T22:16:30+09:00</lastmod>
+    <loc>/sections/example/</loc>
   </url>
   
   <url>
-    <loc>/contact/</loc>
+    <loc>/posts/</loc>
+    <lastmod>2019-03-24T22:16:30+09:00</lastmod>
   </url>
   
   <url>
@@ -46,7 +46,7 @@
   </url>
   
   <url>
-    <loc>/sections/example/</loc>
+    <loc>/contact/</loc>
   </url>
   
 </urlset>

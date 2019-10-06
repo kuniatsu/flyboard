@@ -2,6 +2,6 @@
 title: "BLOG"
 description: ""
 images: []
-menu: main
+# menu: main
 weight: 0
 ---

@@ -597,6 +597,9 @@
 	#top{
 		background-image: url('../images/flyboard.jpg');
 	}
+	.pckill{
+		display:none;
+	}
 }
  
 @media only screen and (max-width: 420px) {     
@@ -607,6 +610,10 @@
 	.hero__caption > p{
 		color: #FFF;
 	}
+
+	.spkill{
+		display:none;
+	}
 }
 
 #title_logo{
@@ -615,4 +622,9 @@
 
 .hamburger__items{
     margin-top: 5px;
+}
+
+#sample {
+	width: 700px;
+	height: 400px;
 }
