@@ -16,9 +16,8 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/sections/example/</guid>
-      <description>フライボード ・ホバーボードを体験する 関東で体験できるフライボード・ホバーボードアクティビティ
- --  フライボード ・ホバーボードを体験する 関東で体験できるフライボード・ホバーボードアクティビティ
-ここのGoogleMap</description>
+      <description>アクアボードを体験する 関東で体験できるアクアボードアクティビティ
+   → フライフィールド逗子 → JSP鎌倉 → マリーナエイティーン  location1.addEventListener(&#39;click&#39;, function(e){ changeBold(location1,location3,location2); location_map1.classList.remove(&#39;dispnone&#39;); location_map2.classList.add(&#39;dispnone&#39;); location_map3.classList.add(&#39;dispnone&#39;); }); location2.addEventListener(&#39;click&#39;, function(e){ changeBold(location2,location1,location3); location_map2.classList.remove(&#39;dispnone&#39;); location_map1.classList.add(&#39;dispnone&#39;); location_map3.classList.add(&#39;dispnone&#39;); }); location3.addEventListener(&#39;click&#39;, function(e){ changeBold(location3,location1,location2); location_map3.classList.remove(&#39;dispnone&#39;); location_map1.classList.add(&#39;dispnone&#39;); location_map2.classList.add(&#39;dispnone&#39;); // location3.classList.add(&#39;bold&#39;); // location1.classList.remove(&#39;bold&#39;); // location2.classList.remove(&#39;bold&#39;); }); function changeBold(add,rm1,rm2){ add.classList.add(&#39;bold&#39;); rm1.classList.remove(&#39;bold&#39;); rm2.classList.remove(&#39;bold&#39;); }  </description>
     </item>
     
   </channel>

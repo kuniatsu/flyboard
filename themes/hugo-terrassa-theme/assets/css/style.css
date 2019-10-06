@@ -634,3 +634,17 @@
 	width: 100%;
 	position:static!important;
 }
+
+h3.location {
+	border-bottom: solid 1px black;
+    margin-top: 0px;
+    padding: 10px;
+}
+
+.bold{
+	font-weight: bold; 
+}
+
+.dispnone{
+	display: none;
+}

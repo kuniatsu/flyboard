@@ -1,5 +1,5 @@
 ---
-title: "選手権出場"
+title: "参戦する"
 description: ""
 images: []
 menu: main

@@ -12,9 +12,4 @@ logo = "./images/logo.png"
     name = "アクアボード体験"
     weight = 6
     identifier = "about"
-    url = "http://gohugo.io/"
-
-[[menu.main]]
-    name = "選手権情報"
-    weight = 6
-    url = "http://gohugo.io/"
+    url = "./index.html#activity"
