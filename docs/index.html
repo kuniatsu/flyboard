@@ -167,8 +167,10 @@
 <script>
 console.log("test2");
 var map;
+var dom = document.getElementById('map');
+console.dir(dom);
 function initMap() {
- map = new google.maps.Map(document.getElementById('map'), { // #mapに地図を埋め込む
+ map = new google.maps.Map(dom , { // #mapに地図を埋め込む
      center: { // 地図の中心を指定
            lat: 35.681236, // 緯度
           lng: 139.767125 // 経度

@@ -17,13 +17,13 @@
 <meta name="twitter:description" content="フライボード ・ホバーボードを体験する 関東で体験できるフライボード・ホバーボードアクティビティ
  フライボード ・ホバーボードを体験する 関東で体験できるフライボード・ホバーボードアクティビティ
 ここのGoogleMap
- console.log(&#34;test2&#34;); var map; function initMap() { map = new google.maps.Map(document.getElementById(&#39;map&#39;), { // #mapに地図を埋め込む center: { // 地図の中心を指定 lat: 35.681236, // 緯度 lng: 139.767125 // 経度 }, zoom: 15, // 地図のズームを指定 mapTypeId: google.maps.MapTypeId.ROADMAP //表示する地図の形式を設定します。今回は道路地図を表示します。 }); }   "/>
+ console.log(&#34;test2&#34;); var map; var dom = document.getElementById(&#39;map&#39;); console.dir(dom); function initMap() { map = new google.maps.Map(dom , { // #mapに地図を埋め込む center: { // 地図の中心を指定 lat: 35.681236, // 緯度 lng: 139.767125 // 経度 }, zoom: 15, // 地図のズームを指定 mapTypeId: google.maps.MapTypeId.ROADMAP //表示する地図の形式を設定します。今回は道路地図を表示します。 }); }   "/>
 
     <meta property="og:title" content="" />
 <meta property="og:description" content="フライボード ・ホバーボードを体験する 関東で体験できるフライボード・ホバーボードアクティビティ
  フライボード ・ホバーボードを体験する 関東で体験できるフライボード・ホバーボードアクティビティ
 ここのGoogleMap
- console.log(&#34;test2&#34;); var map; function initMap() { map = new google.maps.Map(document.getElementById(&#39;map&#39;), { // #mapに地図を埋め込む center: { // 地図の中心を指定 lat: 35.681236, // 緯度 lng: 139.767125 // 経度 }, zoom: 15, // 地図のズームを指定 mapTypeId: google.maps.MapTypeId.ROADMAP //表示する地図の形式を設定します。今回は道路地図を表示します。 }); }   " />
+ console.log(&#34;test2&#34;); var map; var dom = document.getElementById(&#39;map&#39;); console.dir(dom); function initMap() { map = new google.maps.Map(dom , { // #mapに地図を埋め込む center: { // 地図の中心を指定 lat: 35.681236, // 緯度 lng: 139.767125 // 経度 }, zoom: 15, // 地図のズームを指定 mapTypeId: google.maps.MapTypeId.ROADMAP //表示する地図の形式を設定します。今回は道路地図を表示します。 }); }   " />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/sections/example/" />
 
@@ -160,8 +160,10 @@
 <script>
 console.log("test2");
 var map;
+var dom = document.getElementById('map');
+console.dir(dom);
 function initMap() {
- map = new google.maps.Map(document.getElementById('map'), { // #mapに地図を埋め込む
+ map = new google.maps.Map(dom , { // #mapに地図を埋め込む
      center: { // 地図の中心を指定
            lat: 35.681236, // 緯度
           lng: 139.767125 // 経度
