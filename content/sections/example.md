@@ -27,8 +27,12 @@ weight: 0
 
 
 
-
-<script src="http://maps.google.com/maps/api/js?key=AIzaSyASolxHXUI2r1377h26yWShGFaVqbD6XR4&language=ja"><script>
+<style>
+html { height: 100% }
+body { height: 100% }
+#map { height: 100%; width: 100%}
+</style>
+<script src="https://maps.google.com/maps/api/js?key=AIzaSyASolxHXUI2r1377h26yWShGFaVqbD6XR4&language=ja"><script>
 <script>
     console.log("test2");
     var dom = document.getElementById('map');
@@ -39,4 +43,5 @@ weight: 0
     mapTypeId: 'roadmap'   //地図の種類
     };
     var map = new google.maps.Map(dom, Options);
+    console.dir(map);
 </script>

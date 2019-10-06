@@ -17,13 +17,13 @@
 <meta name="twitter:description" content="フライボード ・ホバーボードを体験する 関東で体験できるフライボード・ホバーボードアクティビティ
  フライボード ・ホバーボードを体験する 関東で体験できるフライボード・ホバーボードアクティビティ
 ここのGoogleMap
-  console.log(&#34;test2&#34;); var dom = document.getElementById(&#39;map&#39;); var MyLatLng = new google.maps.LatLng(35.6811673, 139.7670516); var Options = { zoom: 15, //地図の縮尺値 center: MyLatLng, //地図の中心座標 mapTypeId: &#39;roadmap&#39; //地図の種類 }; var map = new google.maps.Map(dom, Options);  "/>
+ html { height: 100% } body { height: 100% } #map { height: 100%; width: 100%}    console.log(&ldquo;test2&rdquo;); var dom = document.getElementById(&lsquo;map&rsquo;); var MyLatLng = new google.maps.LatLng(35.6811673, 139.7670516); var Options = { zoom: 15, //地図の縮尺値 center: MyLatLng, //地図の中心座標 mapTypeId: &lsquo;roadmap&rsquo; //地図の種類 }; var map = new google.maps.Map(dom, Options); console.dir(map);"/>
 
     <meta property="og:title" content="" />
 <meta property="og:description" content="フライボード ・ホバーボードを体験する 関東で体験できるフライボード・ホバーボードアクティビティ
  フライボード ・ホバーボードを体験する 関東で体験できるフライボード・ホバーボードアクティビティ
 ここのGoogleMap
-  console.log(&#34;test2&#34;); var dom = document.getElementById(&#39;map&#39;); var MyLatLng = new google.maps.LatLng(35.6811673, 139.7670516); var Options = { zoom: 15, //地図の縮尺値 center: MyLatLng, //地図の中心座標 mapTypeId: &#39;roadmap&#39; //地図の種類 }; var map = new google.maps.Map(dom, Options);  " />
+ html { height: 100% } body { height: 100% } #map { height: 100%; width: 100%}    console.log(&ldquo;test2&rdquo;); var dom = document.getElementById(&lsquo;map&rsquo;); var MyLatLng = new google.maps.LatLng(35.6811673, 139.7670516); var Options = { zoom: 15, //地図の縮尺値 center: MyLatLng, //地図の中心座標 mapTypeId: &lsquo;roadmap&rsquo; //地図の種類 }; var map = new google.maps.Map(dom, Options); console.dir(map);" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/sections/example/" />
 
@@ -157,18 +157,24 @@
 
 <p><button>ここのGoogleMap</button></p>
 
-<script src="http://maps.google.com/maps/api/js?key=AIzaSyASolxHXUI2r1377h26yWShGFaVqbD6XR4&language=ja"><script>
+<p><style>
+html { height: 100% }
+body { height: 100% }
+#map { height: 100%; width: 100%}
+</style>
+<script src="https://maps.google.com/maps/api/js?key=AIzaSyASolxHXUI2r1377h26yWShGFaVqbD6XR4&language=ja"><script>
 <script>
-    console.log("test2");
-    var dom = document.getElementById('map');
+    console.log(&ldquo;test2&rdquo;);
+    var dom = document.getElementById(&lsquo;map&rsquo;);
     var MyLatLng = new google.maps.LatLng(35.6811673, 139.7670516);
     var Options = {
     zoom: 15,      //地図の縮尺値
     center: MyLatLng,    //地図の中心座標
-    mapTypeId: 'roadmap'   //地図の種類
+    mapTypeId: &lsquo;roadmap&rsquo;   //地図の種類
     };
     var map = new google.maps.Map(dom, Options);
-</script>
+    console.dir(map);
+</script></p>
 
     </main>
 
