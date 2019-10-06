@@ -663,3 +663,45 @@ h3.location {
 .tel{
 	font-size: 200%;
 }
+
+
+h1.champ{
+	border-top: double var(--accent);
+    border-bottom: double var(--accent);
+}
+
+h2.champ{
+	background-color: var(--accent);
+	color:white;	
+}
+
+img.champ{
+	width:100%;
+}
+
+.post__title{
+	display: none;
+}
+
+span.append{
+	background-color: red;
+	color:white;
+	margin: 10px auto;
+	padding: 10px;
+	text-align:center;
+}
+
+div.append{
+	background-color: red;
+	color:white;
+	margin: 10px auto;
+	padding: 10px;
+	text-align:center;
+}
+
+a.append{
+	color:white;
+	margin: 10px auto;
+	padding: 10px;
+	text-align:center;
+}
