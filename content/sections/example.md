@@ -34,10 +34,10 @@ body { height: 100% }
 </style>
 <script>
       var map;
-      var dom = document.getElementById("map");
+      var dom2 = document.getElementById("map");
       function initMap() {
         console.log("initMap");
-        map = new google.maps.Map(dom, {
+        map = new google.maps.Map(dom2, {
           center: {lat: -34.397, lng: 150.644},
           zoom: 8
         });
